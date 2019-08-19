@@ -1,23 +1,34 @@
-* {
+/* * {
+    border: 1px dotted red;
+} */
+
+.title {
+    font-size: 200%;
+}
+article {
     display: flex;
-    flex-flow: column;
+    flex-flow: wrap row;
     align-content: center;
 }
 
 .main {
-    display: flex;
-    align-content: center;
+    margin-top: 2em;
+    justify-content: center;
+    min-width: 300px;
+    border-radius: 5px;
+    /* background-color: antiquewhite; */
+    padding: 10px;
 }
 
 h1 {
-    display: flex;
-    width: 300px;
-    flex-flow: row wrap;
+    
+    margin: auto;
+    
 }
 
 .about {
     display: flex;
-    flex-flow:
+    flex-direction: column;
 }
 
 body {
@@ -28,19 +39,53 @@ body {
     display: flex;
     /* flex-flow: column; */
     align-content: center;
-    width: 300px;  
+    margin: auto;
+    width: 400px;
+    border: 10px;  
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
 p {
     background-color: lightcyan;
-    border: 5px solid lightcyan;
+    border: 15px solid lightcyan;
+    color: 283953;
 }
 
 h2, h1 {
     color: darkblue;
 }
 
+h2 {
+    margin: auto;
+    max-width: 400px;
+    font-size: 19px;
+}
+
 h3 {
     color: rgb(66, 8, 8);
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+.about {
+
+}
+
+.career {
+    margin-top: 20px;
+}
+
+.legislation {
+    text-align: center;
+}
+
+.leglinks {
+    text-align: center;
+}
+
+.committees {
+
 }
