@@ -1,0 +1,46 @@
+* {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+
+.main {
+    display: flex;
+    align-content: center;
+}
+
+h1 {
+    display: flex;
+    width: 300px;
+    flex-flow: row wrap;
+}
+
+.about {
+    display: flex;
+    flex-flow:
+}
+
+body {
+    background-color: powderblue;
+}
+
+.imgmain {
+    display: flex;
+    /* flex-flow: column; */
+    align-content: center;
+    width: 300px;  
+
+}
+
+p {
+    background-color: lightcyan;
+    border: 5px solid lightcyan;
+}
+
+h2, h1 {
+    color: darkblue;
+}
+
+h3 {
+    color: rgb(66, 8, 8);
+}
